@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95a5a6"
+    tools:context="com.sajithkumara.flexibletemplate.fragment.BMIFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Here place the content for BMI calculator"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast Message"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"/>
+
+</FrameLayout>
